@@ -33,9 +33,10 @@ Now you can put your `data_src.mp4` and `data_dst.mp4` files into the `workspace
 At this point, you may run into different problems. It appears there is a bug in the latest update to protobuf. To get around this, force a downgrade in your Python environment:
 
 Run `source .dfl/env/bin/activate`
-Run `pip install 'protobuf~=3.19.0'`
-Run `deactivate`
 
+Run `pip install 'protobuf~=3.19.0'`
+
+Run `deactivate`
 
 ## Tutorials and docs
 
