@@ -22,7 +22,7 @@ if [ ! -d .dfl/DeepFaceLab ]; then
 fi
 
 if [ ! -d .dfl/env ]; then
-  virtualenv -p python3 .dfl/env
+  virtualenv -p python3.9 .dfl/env
 fi
 
 source .dfl/env/bin/activate
